@@ -6,9 +6,9 @@
   <class name="example.NewTest"></class>
   </classes>
   </test>
-   <test name="Test2">
+   <test name="Test3">
   <classes>
-  <class name="example.NewTest2"></class>
+  <class name="example.NewTest3"></class>
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
