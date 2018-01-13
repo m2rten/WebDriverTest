@@ -31,7 +31,11 @@ public class NewTest {
 		public void beforeTest() {	
 		  //  driver = new FirefoxDriver();  
 	    	System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-		    driver = new ChromeDriver();
+	    	ChromeOptions options = new ChromeOptions();
+			options.addArguments("headless");
+			options.addArguments("window-size=1200x600");
+			driver = new ChromeDriver(options);
+		    
 		}		
 		@AfterTest
 		public void afterTest() {
