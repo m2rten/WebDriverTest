@@ -5,6 +5,9 @@ pipeline {
             steps {
                 echo 'Hello World'
             }
+         stage ('Test'){
+         'mvn test'
+         }   
         }
     }
 }
