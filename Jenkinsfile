@@ -4,8 +4,8 @@ pipeline {
         stage('Build') { 
             steps {
             	echo 'starting tests'
-            	bat 'echostuff'
-                echo 'startTests'
+            	bat 'echostuff.bat'
+                echo 'startTests.bat'
             }
         }
     }
