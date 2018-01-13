@@ -23,7 +23,8 @@ public class NewTest {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			String title = driver.getTitle();				 
+			String title = driver.getTitle();	
+			System.out.println(title);
 			Assert.assertTrue(title.contains("Tallinn")); 		
 		}	
 		@BeforeTest
