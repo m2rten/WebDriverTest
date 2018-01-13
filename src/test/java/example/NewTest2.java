@@ -24,7 +24,7 @@ public class NewTest2 {
 				e.printStackTrace();
 			}
 			String title = driver.getTitle();				 
-			Assert.assertTrue(title.contains("Tallinn")); 		
+			Assert.assertTrue(title.contains("True")); 		
 		}	
 		@BeforeTest
 		public void beforeTest() {	
