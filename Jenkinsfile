@@ -3,13 +3,8 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                echo 'Hello World'
+                mvn test
             }
-         stage ('Test'){
-         	steps {
-               'mvn test'
-                  }
-                       }   
         }
     }
 }
