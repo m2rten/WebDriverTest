@@ -25,7 +25,7 @@ public class NewTest3 {
 			}
 			String title = driver.getTitle();				 
 			
-			Assert.assertTrue(true); 		
+			Assert.assertTrue(false); 		
 		}	
 		@BeforeTest
 		public void beforeTest() {	
